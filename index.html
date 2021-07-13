@@ -10,8 +10,25 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/showkey/id1575132442";
+			      }
+			      else if(jsSrc.indexOf('ja')>=0)
+			      {
+			        window.location.href="https://apps.apple.com/jp/app/showkey/id1575132442";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/showkey/id1575132442";
+			      }
+		}
+		</script>
 	</head>
-	<body class="homepage is-preload">
+	<body class="homepage is-preload" onload="aa();">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -32,7 +49,7 @@
 								<img src="images/icon128.png" />
 								<h1><br />按键显示</h1>
 								<br />
-								<a href="https://apps.apple.com/us/app/showkey/id1575132442" target="_blank">
+								<a href="#" onclick="goStore();" target="_blank">
 									<img src="images/downicon.svg" type="image/svg+xml"/>	
 								</a>
 							</div>
