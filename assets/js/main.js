@@ -46,9 +46,16 @@
 		// Panel.
 			$(
 				'<div id="navPanel">' +
-					'<nav>' +
-						$('#nav').navList() +
-					'</nav>' +
+					'<nav><a class="link depth-0" href="index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>按键显示</a></nav>' +
+					'<nav><a class="link depth-0" href="showkeypro.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>按键显示Pro</a></nav>' +
+					'<nav><a class="link depth-0" href="dynamicwallpaper.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>动态壁纸酷</a></nav>' +
+					'<nav><a class="link depth-0" href="desktopclock.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>桌面时钟</a></nav>' +
+					'<nav><a class="link depth-0" href="contactavatar.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>通讯录头像助手</a></nav>' +
+					'<nav><a class="link depth-0" href="dockclock.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Dock时钟</a></nav>' +
+					'<nav><a class="link depth-0" href="screensaver.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>屏保库</a></nav>' +
+					'<nav><a class="link depth-0" href="videoicon.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>视频封面编辑器</a></nav>' +
+					'<nav><a class="link depth-0" href="privacy.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>相关政策</a></nav>' +
+					'<nav><a class="link depth-0" href="about.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>关于我</a></nav>' +
 				'</div>'
 			)
 				.appendTo($body)

@@ -1,15 +1,18 @@
 <!DOCTYPE HTML>
-<!--
-	Escape Velocity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>macOStool工作室</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		        });
+		</script> 
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -19,18 +22,6 @@
 
 					<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="index.html">按键显示</a></li>
-								<li><a href="showkeypro.html">按键显示Pro</a></li>
-								<li><a href="dynamicwallpaper.html">动态壁纸酷</a></li>
-								<li><a href="desktopclock.html">桌面时钟</a></li>
-								<li><a href="contactavatar.html">通讯录头像助手</a></li>
-								<li><a href="dockclock.html">Dock时钟</a></li>
-								<li><a href="screensaver.html">屏保库</a></li>
-								<li><a href="videoicon.html">视频封面编辑器</a></li><br/>
-								<li><a href="privacy.html">相关政策</a></li>
-								<li><a href="about.html">关于我</a></li>
-							</ul>
 						</nav>
 						
 					<!-- Logo -->
@@ -54,14 +45,12 @@
 					<div class="container" align="center">Copyright© 2016-2022 <br/>E-mail:macostool@qq.com</div>
 				</section> 
 		</div>
-
-		<!-- Scripts -->
+<!-- Scripts 用于显示侧边菜单-->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
