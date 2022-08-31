@@ -54,6 +54,7 @@
 					'<nav><a class="link depth-0" href="dockclock.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Dock时钟</a></nav>' +
 					'<nav><a class="link depth-0" href="screensaver.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>屏保库</a></nav>' +
 					'<nav><a class="link depth-0" href="videoicon.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>视频封面编辑器</a></nav>' +
+					'<nav><a class="link depth-0" href="topweb.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>置顶浏览器</a></nav>' +
 					'<nav><a class="link depth-0" href="privacy.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>相关政策</a></nav>' +
 					'<nav><a class="link depth-0" href="about.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>关于我</a></nav>' +
 				'</div>'
