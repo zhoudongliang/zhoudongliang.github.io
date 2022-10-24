@@ -11,6 +11,8 @@
 		        $(document).ready(function () {
 		            $("#nav").load("nav.html");
 		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
 		        });
 		</script> 
 	</head>
@@ -42,7 +44,7 @@
 
 			<!-- Footer -->
 				<section id="footer" class="wrapper">
-					<div class="container" align="center">Copyright © 2022 macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com</div>
+					<div class="container" align="center" id="copyright"></div>
 				</section> 
 		</div>
 <!-- Scripts 用于显示侧边菜单-->

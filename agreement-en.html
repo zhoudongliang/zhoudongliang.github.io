@@ -6,6 +6,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		        	var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		        });
+		</script> 
 	</head>
 	<body class="homepage is-preload" onload="aa();">
 		<div id="page-wrapper">
@@ -124,7 +131,7 @@ In accordance with the terms of this agreement, we grant you a non-transferable,
 
 			<!-- Footer -->
 				<section id="footer" class="wrapper">
-					<div class="container" align="center">Copyright © 2022 macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com</div>
+					<div class="container" align="center" id="copyright"></div>
 				</section>
 				<!-- Scripts 用于显示侧边菜单-->
 							<script src="assets/js/jquery.min.js"></script>
