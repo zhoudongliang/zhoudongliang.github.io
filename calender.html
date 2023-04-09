@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/dockclockshow/id6445918141";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/dockclockshow/id6445918141";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		            //document.getElementById("copyright").innerHTML = d.getFullYear();
+		        });
+		</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/cal/icon_256x256.png" width="128px"/>
+								<h1><br />桌面日历</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <div class="title"><p class="style1">功能介绍</p></div>
+				  <div class="container">
+					<p class="style1"><strong>这是一个可以在桌面上摆放的日历</strong></p>
+					<p class="style1">
+						<p>你可以设置它的大小尺寸、颜色甚至还可以设置字体</p>
+						<p>你还可以设置它的透明度，让它看上去不那么明显</p>
+						<p>不仅可以显示公历，还可以显示中国农历、印度历等等</p>
+						<p>设置忽略鼠标事件时，它就像长在了桌面上～</p>
+						<p>你可以设置日历是否跟随着工作空间的变化</p>
+						<p>它还可以同步显示出你的日历事件</p>
+						<p>完美兼容多显示器切换显示</p>
+					</p>
+					<img src="images/cal/zh/c1.png" />
+					<img src="images/cal/zh/c2.png" />
+					<img src="images/cal/zh/c3.png" />
+					<img src="images/cal/zh/c4.png" />
+					<img src="images/cal/zh/c5.png" />
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
