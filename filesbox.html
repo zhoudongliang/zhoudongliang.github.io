@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/dockclockshow/id6448700837";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/dockclockshow/id6448700837";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		            //document.getElementById("copyright").innerHTML = d.getFullYear();
+		        });
+		</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/box/icon_128x128@2x.png" width="128px"/>
+								<h1><br />桌面文件盒<br/><br/>Desktop Files Box</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <div class="title"><p class="style1">功能介绍</p></div>
+				  <div class="container">
+					<br/><br/>
+					<p class="style1"><strong>这是一个小巧、高效、省时的桌面文件助手<br/>This's a small, efficient and time-saving desktop file assistant</strong></p>
+					<p class="style1">
+						<p>可以建立多个标签，将各处文件映射到桌面显示。<br/>Multiple labels can be established to map files everywhere to the desktop display.</p>
+						<p>可以支持名称、时间等多种方式进行分类显示。<br/>Can support name, time and other ways to classify and display.</p>
+						<p>预览文件内容，让你快速识别到你要的文件，双击即可打开它。<br/>Preview the content of the file, allowing you to quickly identify the file you want, and double-click to open it.</p>
+						<p>拖动文件可以到任何地方或应用程序打开它。<br/>Drag the file to any place or application to open it.</p>
+						<p>丰富的界面样式定义，可以彰显自己的个性。<br/>Rich interface style definition, you can show your own personality.</p>
+						<p>置顶显示按钮，让文件盒快速出现在你面前。<br/>Put the display button on the top, so that the file box will appear in front of you quickly.</p>
+						<p>完美兼容多显示器切换显示。<br/>Perfectly compatible with multi-monitor switching display.</p>
+					</p>
+					<img width="220px" src="images/box/s1.png"/>
+					<img width="220px" src="images/box/s2.png"/>
+					<img width="220px" src="images/box/s3.png"/>
+					<img width="220px" src="images/box/s4.png"/>
+					<p>
+						<strong>可以自定义各种显示样式<br/>Various display styles can be customized</strong>
+					<p/>
+					<br/>
+					<br/>
+					<div class="row gtr-150">
+						<div class="col-6 col-12-small">
+							<section class="box">
+								<p class="image featured"><img src="images/box/j3.png" alt="" /></p>
+								<p>
+									显示为列表模式<br/>Displayed in list mode<br/>
+									钉在桌面上<br/>Pinned to the desktop<br/>
+								</p>
+							</section>
+						</div>
+						<div class="col-6 col-12-small">
+							<section class="box">
+								<p class="image featured"><img src="images/box/j2.png" alt="" /></p>
+								<p>
+									修改排序规则<br/>Modify collation<br/>
+									修改文件盒路径<br/>Modify file box path<br/>
+									删除文件盒<br/>Remove file box<br/>
+								</p>
+							</section>
+						</div>
+						<div class="col-6 col-12-small">
+							<section class="box">
+								<p class="image featured"><img src="images/box/j4.png" alt="" /></p>
+								<p>
+									显示为图标模式<br/>Displayed in icon mode<br/>
+									添加文件新标签<br/>Add new file tab<br/>
+								</p>
+							</section>
+						</div>
+						<div class="col-6 col-12-small">
+							<section class="box">
+								<p class="image featured"><img src="images/box/j5.png" alt="" /></p>
+								<p>
+									 在设置中打开显示预览图标<br/>Turn on Show preview icon in settings<br/>
+								</p>
+							</section>
+						</div>
+					</div>
+					
+					<img src="images/box/settiing.png" alt="" />
+					<p>
+						 点击⚙️打开显示偏好设置面板<br/>Click ⚙️ to open the Display Preferences panel<br/>
+					</p>
+					</div>
+					
+				</section>
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
