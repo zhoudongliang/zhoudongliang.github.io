@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/dockclockshow/id6449838745";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/dockclockshow/id6449838745";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		            //document.getElementById("copyright").innerHTML = d.getFullYear();
+		        });
+		</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav"></nav>
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/disk/icon_128x128@2x.png" width="128px"/></p>
+								<h1><br />磁盘空间矩阵<br/><br/>Disk space matrix</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+								
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+					<div class="title"><p class="style1">功能介绍</p></div>
+					<br/><br/>
+					<div class="container">
+						<p class="style1"><strong>磁盘空间分析工具</strong></p>
+						<p class="style1">
+							<p>分析你磁盘上某个目录下的每个文件、文件夹的实际大小和占用磁盘情况，通过矩阵树的形式展示出来。</p>
+							<p>你可以点击某个目录，App将显示出详细信息，并提供跳转按钮，方便你快速找到这个文件。</p>
+						</p>
+						<p><img src="images/disk/j1.png"/></p>
+					</div>
+				</section>
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
