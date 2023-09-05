@@ -59,6 +59,7 @@
 					'<nav><a class="link depth-0" href="calender.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>桌面日历</a></nav>' +
 					'<nav><a class="link depth-0" href="filesbox.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>桌面文件盒</a></nav>' +
 					'<nav><a class="link depth-0" href="diskspacematrix.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>磁盘空间矩阵</a></nav>' +
+					'<nav><a class="link depth-0" href="mouseshow.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>鼠标秀</a></nav>' +
 					'<nav><a class="link depth-0" href="privacy.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>相关政策</a></nav>' +
 					'<nav><a class="link depth-0" href="about.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>关于我</a></nav>' +
 				'</div>'
