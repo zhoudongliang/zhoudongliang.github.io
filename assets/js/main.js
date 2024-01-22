@@ -53,7 +53,7 @@
 					'<nav><a class="link depth-0" href="contactavatar.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>通讯录头像助手</a></nav>' +
 					'<nav><a class="link depth-0" href="dockclock.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Dock时钟</a></nav>' +
 					'<nav><a class="link depth-0" href="superscreensaver.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>超级屏保</a></nav>' +
-					'<nav><a class="link depth-0" href="videoicon.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>视频封面编辑器</a></nav>' +
+					'<nav><a class="link depth-0" href="alphaplayer.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>AlphaPlayer</a></nav>' +
 					'<nav><a class="link depth-0" href="topweb.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>置顶浏览器</a></nav>' +
 					'<nav><a class="link depth-0" href="xfindfile.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>XFindFile</a></nav>' +
 					'<nav><a class="link depth-0" href="calender.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>桌面日历</a></nav>' +
