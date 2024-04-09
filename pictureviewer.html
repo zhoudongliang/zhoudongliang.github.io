@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/mypictureviewer/id6479598717";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/mypictureviewer/id6479598717";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		        });
+		</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/pictureviewer/icon_128x128@2x.png" width="128px"/>
+								<h1><br />图片查看器</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <br/><br/>
+				  <div class="title"><p class="style1">功能介绍</p></div>
+				  <div class="container">
+					<p class="style1"><strong>想象中的图片查看工具</strong></p>
+					<p class="style1">
+						<p>简洁的图片查看工具，你可以通过控制面板来控制图片的各种显示方式</p>
+						<img width="800px" src="images/pictureviewer/jietu0.png" />
+						<p>你可以直接打开App后选择图片，或者通过右键菜单选择App，拖入文件到App来显示图片</p>
+						<img width="800px" src="images/pictureviewer/jietu1.png" />
+						<p>支持绝大多数图片格式</p>
+						<p>可以设置缩放、充满窗口、充满屏幕和实际尺寸显示</p>
+						<p>可以设置旋转、水平翻转和垂直翻转显示</p>
+						<img width="800px" src="images/pictureviewer/jietu2.png" />
+						<p>自动识别图片中的内容，人物等对象或是文本</p>
+						<img width="800px" src="images/pictureviewer/jietu3.png" />
+						<p>支持全屏播放模式</p>
+						<p>右键点击图片可以使用预览打开、在访达显示、拷贝图像、拷贝文件、打印、设置为桌面背景和移到废纸篓</p>
+						<img width="800px" src="images/pictureviewer/jietu4.png" />
+					</p>
+				  </div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool Studio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/us/app/mypictureviewer/id6479598717";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/mypictureviewer/id6479598717";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav-en.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		        });
+		</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/pictureviewer/icon_128x128@2x.png" width="128px"/>
+								<h1><br />PictureViewer</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <br/><br/>
+				  <div class="title"><p class="style1">Features</p></div>
+				  <div class="container">
+					<p class="style1"><strong>Imaginary image viewing tool</strong></p>
+					<p class="style1">
+						<p>Simple image viewing tool, you can control various display methods of images through the control panel</p>
+						<img width="800px" src="images/pictureviewer/jietu0.png" />
+						<p>You can directly open the App and select the picture, or select App through the right-click menu and drag the file into the App to display the picture.</p>
+						<img width="800px" src="images/pictureviewer/jietu1.png" />
+						<p>Supports most image formats</p>
+						<p>You can set zoom, fill window, fill screen and actual size display</p>
+						<p>Rotation, horizontal flipping and vertical flipping display can be set</p>
+						<img width="800px" src="images/pictureviewer/jietu2.png" />
+						<p>Automatically identify content, characters and other objects or text in pictures</p>
+						<img width="800px" src="images/pictureviewer/jietu3.png" />
+						<p>Support full screen playback mode</p>
+						<p>Right-click on an image to open with preview, display in Finder, copy image, copy file, print, set as desktop background and move to Trash</p>
+						<img width="800px" src="images/pictureviewer/jietu4-en.png" />
+					</p>
+				  </div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
