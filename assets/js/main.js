@@ -46,9 +46,9 @@
 		// Panel.
 			$(
 				'<div id="navPanel">' +
-					'<nav><a class="link depth-0" href="index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>按键显示</a></nav>' +
+					'<nav><a class="link depth-0" href="showkey.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>按键显示</a></nav>' +
 					'<nav><a class="link depth-0" href="showkeypro.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>按键显示Pro</a></nav>' +
-					'<nav><a class="link depth-0" href="dynamicwallpaper.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>动态壁纸酷</a></nav>' +
+					'<nav><a class="link depth-0" href="index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>动态壁纸酷</a></nav>' +
 					'<nav><a class="link depth-0" href="desktopclock.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>桌面时钟</a></nav>' +
 					'<nav><a class="link depth-0" href="contactavatar.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>通讯录头像助手</a></nav>' +
 					'<nav><a class="link depth-0" href="dockclock.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Dock时钟</a></nav>' +
