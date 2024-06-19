@@ -63,6 +63,7 @@
 					'<nav><a class="link depth-0" href="desktopcamera.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>桌面相机</a></nav>' +
 					'<nav><a class="link depth-0" href="diskspacematrix.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>磁盘空间矩阵</a></nav>' +
 					'<nav><a class="link depth-0" href="mouseshow.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>鼠标秀</a></nav>' +
+					'<nav><a class="link depth-0" href="filedrawer.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>文件抽屉</a></nav>' +
 					'<nav><a class="link depth-0" href="privacy.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>相关政策</a></nav>' +
 					'<nav><a class="link depth-0" href="about.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>关于我</a></nav>' +
 				'</div>'
