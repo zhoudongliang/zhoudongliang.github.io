@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/exif-gps-editor/id6670552134";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/exif-gps-editor/id6670552134";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		        });
+			</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/exifgps/icon_128x128@2x.png" width="128px"/>
+								<h1><br />Exif GPS编辑器</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <br/><br/>
+				  <div class="title"><p class="style1">功能介绍</p></div>
+				  <div class="container">
+					<p class="style1"><strong>这是一个可以为照片添加GPS信息的应用</strong></p>
+					<p class="style1">
+						<p>目前市面上绝大部分的专业数码相机都没有携带GPS功能，拍摄出来的照片不携带位置信息，无法通过位置来管理。<br/>
+						Exif GPS编辑器可以为照片添加GPS信息，不仅可以记录照片拍摄的位置，还可以更好的查找和管理照片问完。</p>
+						<img width="80%" src="images/exifgps/1.png"/>
+						<p>可以通过拖入照片文件或有照片的文件夹。<br/>You can drag and drop photo files or folders containing photos.</p>
+						<img width="80%" src="images/exifgps/2.png"/>
+						<p>使用我们的另外一个App“GPS记录仪”，来记录您的拍摄位置，从而批量导入到“Exif GPS编辑器”中，根据拍摄时间与照片进行自动匹配。<br/>Use our other app "GPS Recorder" to record your shooting locations, so that you can batch import them into "Exif GPS Editor" and automatically match them with photos based on the shooting time.</p>
+						<img width="80%" src="images/exifgps/3.png"/>
+						<p>也可以在地图上选择位置点，手动添加到列表中；也可以右键选择删除某些位置点。<br/>You can also select location points on the map and manually add them to the list; you can also right-click and choose to delete certain location points.</p>
+						<img width="80%" src="images/exifgps/4.png"/>
+						<p>点击“匹配位置”按钮，就可以对导入的照片和GPS信息进行匹配，App将根据照片的拍摄时间和GPS时间进行匹配，匹配完成后照片列表会显示已匹配的标记。<br/>Click the "Match Location" button to match the imported photos and GPS information. The App will match them based on the photo shooting time and GPS time. After the matching is completed, the photo list will display the matched marks.</p>
+						<img width="80%" src="images/exifgps/5.png"/>
+						<p>在地图可以查看匹配上的照片位置，或者已经有GPS的照片。<br/>You can view the location of matching photos or photos that already have GPS on the map.</p>
+						<img width="80%" src="images/exifgps/6.png"/>
+						<p>点击“写入文件”会将已经匹配上的GPS信息写入到照片中。<br/>Clicking "Write to File" will write the matched GPS information into the photo.</p>
+					</p>
+				  </div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>

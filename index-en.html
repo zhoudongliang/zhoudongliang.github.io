@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>macOStool工作室</title>
+		<title>macOStool studio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -11,7 +11,7 @@
 			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
 			      if(jsSrc.indexOf('zh')>=0)
 			      {
-					window.location.href="https://apps.apple.com/cn/app/动态壁纸酷/id1582358382";
+					window.location.href="https://apps.apple.com/us/app/dynamic-wallpaper-library/id1582358382";
 			      }
 			      else if(jsSrc.indexOf('ja')>=0)
 			      {
@@ -26,21 +26,10 @@
 		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
 		    <script>
 		        $(document).ready(function () {
-		            $("#nav").load("nav.html");
+		            $("#nav").load("nav-en.html");
 		            //$("#footer").load("footer.html");
 		            var d = new Date();
 		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
-					
-					//go englist
-					var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
-					  if(jsSrc.indexOf('zh')>=0)
-					  {
-						
-					  }
-					  else
-					  {
-						window.location.href="https://www.macostool.com/index-en.html";
-					  }
 		        });
 		</script> 
 	</head>
@@ -48,47 +37,48 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<section id="header" class="wrapper style1">
-
-					<!-- Nav -->
-						<nav id="nav">
-						</nav>
-						
+				<section id="header" class="wrapper style1" style="height: 700px;">
 						<!-- Logo -->
-							<div id="logo">
+							<div id="logo" hei>
+								<!-- Nav -->
+									<nav id="nav">
+									</nav>
+									<br><br><br><br><br><br><br><br><br><br>
 								<p class="style2">
 								<img src="images/bizhi/bizhiicon.png" width="128px"/>
-								<h1><br/>动态壁纸酷</h1>
+								<h1><br/>Dynamic Wallpaper Library</h1>
 								<br />
 								<a href="javascript:;" onclick="goStore();" target="_blank">
 									<img src="images/downicon.svg" type="image/svg+xml"/>	
 								</a>
+								<br><br><br><br><br>
 							</div>
 				</section>
 
 			<!-- Intro -->
 				<section id="intro" class="wrapper style1">
-					<div class="title"><p class="style1">功能介绍</p></div>
+					<div class="title"><p class="style1">Features</p></div>
 					<br/><br/>
 					<div class="container">
-						<p class="style1"><strong>设置动态壁纸，给桌面增加一些乐趣吧~</strong></p>
+						<p class="style1"><strong>Set a live wallpaper for your desktop and add some fun to your desktop~
+</strong></p>
 						<p class="style1">
-							<p>支持设置本地壁纸,漂亮的壁纸由您来自定义</p>
-							<p>超过了<b>8000</b>款动态壁纸,供你享用</p>
-							<p>适配新系统菜单栏半透明效果</p>
-							<p>壁纸可以动态预览,无需下载即可知道动态内容</p>
-							<p>支持多个屏幕设置相同或者不同的壁纸</p>
-							<p>保证动态壁纸日更,每天都有新的惊喜发现</p>
+							<p>Support setting local wallpaper files, beautiful wallpapers are defined by you</p>
+							<p>More than <b>8000</b> live wallpapers for you to enjoy</p>
+							<p>A variety of classification and search functions allow you to quickly find your favorite live wallpapers</p>
+							<p>The wallpaper can be previewed dynamically, you can know the dynamic content without downloading</p>
+							<p>Adapt to the translucent effect of the new system menu bar</p>
+							<p>The dynamic wallpapers are guaranteed to be updated daily, with new surprises discovered every day</p>
 						</p>
-						<p></p><img width="80%" src="images/bizhi/b1.png"/></p>
-						<p></p><img width="80%" src="images/bizhi/b2.png"/></p>
-						<p></p><img width="80%" src="images/bizhi/bizhi.png"/></p>
-						<p></p><img width="80%" src="images/bizhi/bizhi5.png"/></p>
-						<p></p><img width="80%" src="images/bizhi/bizhi4.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/be1.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/be2.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/be3.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/be4.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/be5.png"/></p>
 						<p></p><img width="80%" src="images/bizhi/bizhi3.png"/></p>
 						<p></p><img width="80%" src="images/bizhi/bizhi2.png"/></p>
 						<p></p><img width="80%" src="images/bizhi/bizhi1.png"/></p>
-						<p>联系我:macostool@qq.com，将你发现的精美壁纸，分享给其他人</p>
+						<p>Contact me: macostool@qq.com and share the beautiful wallpapers you discovered with others</p>
 					</div>
 				</section>
 
