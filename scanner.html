@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/icodescanner/id6737253774";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/icodescanner/id6737253774";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		        });
+			</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/scanner/icon_128x128@2x.png" width="128px"/>
+								<h1><br />扫码录入</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <br/><br/>
+				  <div class="title"><p class="style1">功能介绍</p></div>
+				  <div class="container">
+					<p class="style1"><strong>现在可以使用Mac来扫码录入了<br/>你可以用Mac电脑来做扫码入库，销售，库存盘点等操作<br/>
+					Now you can use Mac to scan and enter. You can use Mac to scan and enter, sell, inventory and other operations.
+</strong></p>
+					<p class="style1">
+						<img width="80%" src="images/scanner/1.png"/>
+						<p>你可以内置的相机或是连接iPhone，还可以连接其他任何相机。
+						<br/>You can use the built-in camera or connect to iPhone, or any other camera.</p>
+						<p>可以识别市面上大部分的条码和二维码。
+						<br/>It can recognize most barcodes and QR codes on the market.</p>
+						<p>你可以选择将识别结果自动放到剪切板，或立即粘贴到任意App的某个文字框中。
+						<br/>You can choose to automatically put the recognition results into the clipboard, or paste them immediately into a text box in any App.</p>
+						<p>你可以将窗口最小化到后台，它仍然可以继续工作。
+						<br/>You can minimize the window to the background, and it will still continue to work.
+</p>
+							
+						<p>访问相机只是为了扫码，App没有连网权限，我们不会收集您的任何信息。<br/>
+						“立即粘贴”功能需要开启相关辅助功能权限。<br/>
+						Accessing the camera is only for scanning, the App does not have Internet access, and we will not collect any of your information.
+						The "Paste Now" function requires the relevant accessibility permissions to be enabled.
+						</p>
+					</p>
+				  </div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
