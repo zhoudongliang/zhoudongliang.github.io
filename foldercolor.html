@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/changefoldercolor/id6739247527";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/changefoldercolor/id6739247527";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		        });
+			</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/foldercolor/icon_128x128@2x.png" width="128px"/>
+								<h1><br />文件夹改色</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <br/><br/>
+				  <div class="title"><p class="style1">功能介绍</p></div>
+				  <div class="container">
+					<p class="style1">
+						<strong>快速修改你的文件夹颜色<br/>
+						Quickly Change your folder color
+						</strong>
+					</p>
+					<p class="style1">
+						<img width="52%" src="images/foldercolor/1.png"/>
+						<p>通过右键菜单快速修改你的文件夹颜色。
+						<br/>Quickly change your folder color through the right-click menu.</p>
+						<p>App提供了多大48种颜色可以选择。
+						<br/>The app provides up to 48 colors to choose from.</p>
+						<p>你可以选择一个或多个项目，进行同时设置。
+						<br>You can select one or more items and set them at the same time.</p>
+						<p>提供恢复原色功能，可以将文件夹恢复到最初的样子。
+						<br/>Provides the function of restoring the original color, which can restore the folder to its original appearance.
+					</p>
+				  </div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
