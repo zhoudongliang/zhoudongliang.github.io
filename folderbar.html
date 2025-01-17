@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/folder-bar/id6739958752";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/folder-bar/id6739958752";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		        });
+			</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/folderbar/icon_128x128@2x.png" width="128px"/>
+								<h1><br />Folder Bar</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <br/><br/>
+				  <div class="title"><p class="style1">功能介绍</p></div>
+				  <div class="container">
+					<p class="style1">
+						<strong>在菜单栏显示文件列表<br/>
+						Show file list in menu bar
+						</strong>
+					</p>
+					<p class="style1">
+						<p><img width="36%" src="images/folderbar/1.png"/>
+						<br/>可以添加多个文件夹到菜单栏中。
+						<br/>You can add multiple folders to the menu bar.
+						<br/>点击菜单中的文件可以打开。
+						<br/>Click on a file in the menu to open it.</p>
+						<img width="36%" src="images/folderbar/2.png"/>
+						<p>可以拖动菜单中的文件到任意位置。
+						<br>You can drag the file in the menu to any location.</p>
+						<img width="44%" src="images/folderbar/3.png"/>
+						<p>可以设置每个菜单栏项目中的文件排序方式。
+						<br/>You can set the sorting method of files in each menu bar item.
+						<br/><img width="45%" src="images/folderbar/4.png"/><br/>
+						<p>你可以对菜单栏上的项目自定义样式，如名称、颜色、设置图标，还可以设置只显示文件夹的图标。
+						<br/>You can customize the style of the items on the menu bar, such as name, color, set icon, and set the icon to only show folders.
+					</p>
+				  </div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
