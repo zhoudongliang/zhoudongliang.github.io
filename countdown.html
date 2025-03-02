@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/minicountdownbar/id6741984495";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/minicountdownbar/id6741984495";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            //$("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+		        });
+			</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/countdown/icon_128x128@2x.png" width="128px"/>
+								<h1><br />菜单栏倒计时</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			  <!-- Intro -->
+				<section id="intro" class="wrapper style1">
+				  <br/><br/>
+				  <div class="title"><p class="style1">功能介绍</p></div>
+				  <div class="container">
+					<p class="style1">
+						<strong>这是一个菜单栏上的倒计时<br/>
+						This is a countdown on the menu bar
+						</strong>
+					</p>
+					<p class="style1">
+						<p>你可以设置到某个以日期时间，或者设置某一段时间为倒计时。
+						<br/>Quickly change your folder color through the right-click menu.</p>
+						<img width="48%" src="images/countdown/1.png"/>
+						<p>App提供了五种菜单栏按钮的显示样式，它会实时显示当前进度，并在倒计时结束时闪烁，足够显示你的个性。
+						<br/>The app provides five display styles for the menu bar button. It will display the current progress in real time and flash at the end of the countdown, which is enough to show your personality.</p>
+						<p>在倒计时结束时，你可以使用播放铃声，或一段你设置的文本，App将为你朗读出来。同时，App会弹出通知，以便你能看到提醒。
+						<br>At the end of the countdown, you can use the ringtone or a text you set, and the app will read it out for you. At the same time, the app will pop up a notification so that you can see the reminder.</p>
+						<p>你可以设置一个快捷键，快速呼出设置界面。
+						<br/>You can set a shortcut key to quickly call out the settings interface.
+					</p>
+				  </div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+<!-- Scripts 用于显示侧边菜单-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
