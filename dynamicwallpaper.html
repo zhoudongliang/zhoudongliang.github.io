@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/动态壁纸酷/id1582358382";
+			      }
+			      else if(jsSrc.indexOf('ja')>=0)
+			      {
+			        window.location.href="https://apps.apple.com/jp/app/动态壁纸酷/id1582358382";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/动态壁纸酷/id1582358382";
+			      }
+		}
+		</script>
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		    <script>
+		        $(document).ready(function () {
+		            $("#nav").load("nav.html");
+		            //$("#footer").load("footer.html");
+		            var d = new Date();
+		            $("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com";
+					
+					//go englist
+					var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+					  if(jsSrc.indexOf('zh')>=0)
+					  {
+						
+					  }
+					  else
+					  {
+						window.location.href="https://www.macostool.com/index-en.html";
+					  }
+		        });
+		</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper style1">
+
+					<!-- Nav -->
+						<nav id="nav">
+						</nav>
+						
+						<!-- Logo -->
+							<div id="logo">
+								<p class="style2">
+								<img src="images/bizhi/bizhiicon.png" width="128px"/>
+								<h1><br/>动态壁纸酷</h1>
+								<br />
+								<a href="javascript:;" onclick="goStore();" target="_blank">
+									<img src="images/downicon.svg" type="image/svg+xml"/>	
+								</a>
+							</div>
+				</section>
+
+			<!-- Intro -->
+				<section id="intro" class="wrapper style1">
+					<div class="title"><p class="style1">功能介绍</p></div>
+					<br/><br/>
+					<div class="container">
+						<p class="style1"><strong>设置动态壁纸，给桌面增加一些乐趣吧~</strong></p>
+						<p class="style1">
+							<p>支持设置本地壁纸,漂亮的壁纸由您来自定义<br/>
+							超过了<b>8000</b>款动态壁纸,供你享用<br/>
+							多种分类和搜索功能，让你快速找到喜欢的动态壁纸<br/>
+							完美支持支持多个显示器，可设置相同或者不同的壁纸<br/>
+							壁纸可以动态预览，无需下载即可知道动态内容<br/>
+							支持穿透菜单栏，完美显示<br/>
+							支持全屏显示模式<br/>
+							支持隐藏桌面图标模式<br/>
+							三档节能模式，拒绝续航焦虑<br/>
+						</p>
+						<p></p><img width="80%" src="images/bizhi/b1.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/bizhi5.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/bizhi4.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/bizhi3.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/bizhi2.png"/></p>
+						<p></p><img width="80%" src="images/bizhi/bizhi1.png"/></p>
+						<p>联系我:macostool@qq.com，将你发现的精美壁纸，分享给其他人</p>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container" align="center" id="copyright"></div>
+				</section> 
+		</div>
+		<!-- Scripts 用于显示侧边菜单-->
+					<script src="assets/js/jquery.min.js"></script>
+					<script src="assets/js/jquery.dropotron.min.js"></script>
+					<script src="assets/js/browser.min.js"></script>
+					<script src="assets/js/breakpoints.min.js"></script>
+					<script src="assets/js/util.js"></script>
+					<script src="assets/js/main.js"></script>
+	</body>
+</html>
