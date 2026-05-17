@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title id="page-title">iAutoCapture - macOStool工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.en-text { display: none; }
+		</style>
+		<script>
+		function goStore(){
+			var jsSrc = (navigator.language || navigator.browserLanguage).toLowerCase();
+			if(jsSrc.indexOf('zh') >= 0) {
+				window.location.href="https://apps.apple.com/cn/app/iautocapture/id6739958752";
+			} else {
+				window.location.href="https://apps.apple.com/us/app/iautocapture/id6739958752";
+			}
+		}
+
+		document.addEventListener("DOMContentLoaded", function() {
+			var lang = (navigator.language || navigator.browserLanguage).toLowerCase();
+			var isEnglish = lang.indexOf('en') === 0;
+
+			if (isEnglish) {
+				document.title = "iAutoCapture - macOStool Studio";
+				var zhElements = document.querySelectorAll('.zh-text');
+				for (var i = 0; i < zhElements.length; i++) {
+					zhElements[i].style.display = 'none';
+				}
+				var enElements = document.querySelectorAll('.en-text');
+				for (var j = 0; j < enElements.length; j++) {
+					enElements[j].style.display = 'block';
+				}
+			}
+		});
+		</script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#nav").load("nav.html");
+				var d = new Date();
+				$("#copyright").html("Copyright © " + d.getFullYear() + " macOStool All Rights Reserved. <br/>E-mail:macostool@qq.com");
+			});
+		</script> 
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+			<section id="header" class="wrapper style1">
+				<nav id="nav"></nav>
+				<div id="logo">
+					<p class="style2">
+					<img src="images/iautocapture/icon_128x128@2x.png" width="128px" alt="iAutoCapture Icon" onerror="this.src='images/folderbar/icon_128x128@2x.png'"/>
+					<h1><br />iAutoCapture</h1>
+					<p class="zh-text">全定时自动拍照工具</p>
+					<p class="en-text">Fully Auto Timer Camera</p>
+					<br />
+					<a href="javascript:;" onclick="goStore();" target="_blank">
+						<img src="images/downicon.svg" type="image/svg+xml"/>	
+					</a>
+				</div>
+			</section>
+
+			<section id="intro" class="wrapper style1">
+				<br/><br/>
+				<div class="title">
+					<p class="style1 zh-text">功能介绍</p>
+					<p class="style1 en-text">Features</p>
+				</div>
+				  
+				<div class="container zh-text" style="text-align: left; line-height: 1.8;">
+					<p class="style1" style="text-align: center;">
+						<strong>自动化定时拍照工具</strong>
+					</p>
+					<p>
+						无论你是想记录工作台的延时摄影、追踪植物的生长过程、进行日常的习惯打卡，还是需要一个安静的后台拍摄助手，它都能完美胜任。<br/>
+						我们专注于<strong>“无感运行”</strong>与<strong>“高度定制”</strong>。<br/>
+						一旦设置完毕，它就会像隐形助手一样在后台默默工作。即使重启电脑，它也能精准记住你的所有配置与拍摄状态，绝不漏拍任何一个重要瞬间！
+					</p>
+
+					<div align="center" style="margin: 2em 0;">
+						<img width="40%" src="images/iautocapture/c1.png" alt="默认界面" />
+						<p style="font-size: 0.9em; color: #666; margin-top: 10px;">设置</p>
+					</div>
+
+					<h3>【灵活强大的拍摄计划】</h3>
+					<ul>
+						<li><strong>超宽跨度的拍摄间隔：</strong>从高频的 5 秒、10 秒，到长线的 30 分钟，甚至长达 8 小时，满足从延时摄影到长期记录的任何需求。</li>
+						<li><strong>智能日程表：</strong>自定义“每日自动开始”与“自动结束”时间（例如仅在工作日 9:00 - 18:00 运行），无需每天手动开关。</li>
+						<li><strong>限量拍摄模式：</strong>支持设定拍摄 1~200 张后自动暂停，防止照片泛滥，精准控制素材量。</li>
+						<li><strong>秒级响应引擎：</strong>点击“开始”瞬间立刻抓拍第一张。拥有强大的状态记忆功能，即使重启 App 或 Mac，拍摄状态也不会中断或重置。</li>
+					</ul>
+
+					<div align="center" style="margin: 2em 0;">
+						<img width="40%" src="images/iautocapture/c4.png" alt="定时时间间隔" />
+						<p style="font-size: 0.9em; color: #666; margin-top: 10px;">支持丰富的定时时间间隔</p>
+					</div>
+
+					<h3>【隐形且纯净的体验】</h3>
+					<ul>
+						<li><strong>常驻状态栏：</strong>通过顶部菜单栏轻松控制“开始/停止拍摄”或进入“设置”。</li>
+						<li><strong>极简沉浸模式：</strong>嫌菜单栏太拥挤？你可以选择彻底隐藏菜单栏图标，让 App 在后台完全隐形静默运行。</li>
+						<li><strong>开机自启动：</strong>配置好后即可做到“设置一次，忘掉它的存在”。</li>
+						<li><strong>全局快捷键：</strong>无论你在使用什么软件，按下专属快捷键即可一键启动或暂停定时拍摄。</li>
+					</ul>
+
+					<h3 style="margin-top: 2em;">【井井有条的文件管理】</h3>
+					<ul>
+						<li><strong>自动按天归档：</strong>照片会自动存入以“日期”命名的独立文件夹中，后期整理找图一目了然。</li>
+						<li><strong>一键直达：</strong>在设置中点击路径，即可瞬间在 Finder 中打开当天的照片目录。</li>
+						<li><strong>三种画质选择：</strong>支持保存为“小、中、原始尺寸”，帮你完美平衡照片清晰度与硬盘空间。</li>
+					</ul>
+
+					<h3 style="margin-top: 2em;">【丰富的个性化配置】</h3>
+					<ul>
+						<li><strong>多相机支持：</strong>完美支持 Mac 内置摄像头及外接 USB 相机/iPhone 连续互通相机。</li>
+						<li><strong>多种快门提示音：</strong>内置 3 款精心挑选的拍摄提示音，让你在后台拍摄时既有安全感又不会被打扰（当然也可以静音运行）。</li>
+					</ul>
+
+					<div align="center" style="margin: 2em 0;">
+						<img width="40%" src="images/iautocapture/c2.png" alt="相机列表" />
+						<p style="font-size: 0.9em; color: #666; margin-top: 10px;">支持多设备与相机列表选择</p>
+					</div>
+
+					<div align="center" style="margin: 2em 0;">
+						<img width="40%" src="images/iautocapture/c3.png" alt="预览界面" />
+						<p style="font-size: 0.9em; color: #666; margin-top: 10px;">清晰的实时预览界面</p>
+					</div>
+				</div>
+
+				<div class="container en-text" style="text-align: left; line-height: 1.8;">
+					<p class="style1" style="text-align: center;">
+						<strong>Automated Time-Lapse & Photo Capture Tool</strong>
+					</p>
+					<p>
+						Whether you want to record a time-lapse of your workspace, track plant growth, build daily habits, or just need a quiet background camera assistant, it handles it all perfectly.<br/>
+						We focus on <strong>"invisible operation"</strong> and <strong>"high customization."</strong><br/>
+						Once set up, it works silently in the background like a hidden assistant. Even if you restart your computer, it accurately remembers all your configurations and shooting status, never missing a single important moment!
+					</p>
+
+					<div align="center" style="margin: 2em 0;">
+						<img width="40%" src="images/iautocapture/e1.png" alt="Default Settings" />
+						<p style="font-size: 0.9em; color: #666; margin-top: 10px;">Settings</p>
+					</div>
+
+					<h3>[Flexible & Powerful Shooting Plans]</h3>
+					<ul>
+						<li><strong>Ultra-wide shooting intervals:</strong> From high-frequency 5 or 10 seconds to long-term 30 minutes, or even up to 8 hours. Meets any need from time-lapse photography to long-term recording.</li>
+						<li><strong>Smart Schedule:</strong> Customize "Daily Auto-Start" and "Auto-Stop" times (e.g., run only on weekdays 9:00 - 18:00), eliminating the need for manual daily toggles.</li>
+						<li><strong>Limited Capture Mode:</strong> Support setting an auto-pause after capturing 1~200 photos to prevent photo flooding and precisely control your media volume.</li>
+						<li><strong>Second-Level Response Engine:</strong> Instantly captures the first photo the moment you click "Start." Features powerful state memory—even if you restart the App or your Mac, the shooting status won't be interrupted or reset.</li>
+					</ul>
+
+					<div align="center" style="margin: 2em 0;">
+						<img width="40%" src="images/iautocapture/e4.png" alt="Timer Intervals" />
+						<p style="font-size: 0.9em; color: #666; margin-top: 10px;">Supports Various Timer Intervals</p>
+					</div>
+
+					<h3>[Invisible & Pure Experience]</h3>
+					<ul>
+						<li><strong>Menu Bar Resident:</strong> Easily control "Start/Stop Capture" or access "Settings" right from your top menu bar.</li>
+						<li><strong>Minimalist Immersive Mode:</strong> Find the menu bar too crowded? You can completely hide the menu bar icon, letting the App run entirely invisible and silently in the background.</li>
+						<li><strong>Launch on Startup:</strong> Set it up once and forget it exists.</li>
+						<li><strong>Global Hotkeys:</strong> No matter what software you are using, press the dedicated hotkey to start or pause the scheduled capture with one click.</li>
+					</ul>
+
+					<h3 style="margin-top: 2em;">[Organized File Management]</h3>
+					<ul>
+						<li><strong>Auto Daily Archiving:</strong> Photos are automatically saved into independent folders named by "Date," making later organization and searching clear at a glance.</li>
+						<li><strong>One-Click Access:</strong> Click the path in settings to instantly open today's photo directory in Finder.</li>
+						<li><strong>Three Quality Options:</strong> Choose to save in "Small, Medium, or Original Size," helping you perfectly balance photo clarity and hard drive space.</li>
+					</ul>
+
+					<h3 style="margin-top: 2em;">[Rich Personalized Configurations]</h3>
+					<ul>
+						<li><strong>Multi-Camera Support:</strong> Perfectly supports the Mac built-in camera, external USB cameras, and iPhone Continuity Camera.</li>
+						<li><strong>Multiple Shutter Sounds:</strong> Includes 3 carefully selected capture sounds, giving you a sense of security while shooting in the background without being disturbed (you can also run it completely muted).</li>
+					</ul>
+
+					<div align="center" style="margin: 2em 0;">
+						<img width="40%" src="images/iautocapture/e2.png" alt="Camera List" />
+						<p style="font-size: 0.9em; color: #666; margin-top: 10px;">Supports Multiple Devices and Camera Selection</p>
+					</div>
+
+					<div align="center" style="margin: 2em 0;">
+						<img width="40%" src="images/iautocapture/e3.png" alt="Preview Interface" />
+						<p style="font-size: 0.9em; color: #666; margin-top: 10px;">Clear Real-Time Preview Interface</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="footer" class="wrapper">
+				<div class="container" align="center" id="copyright"></div>
+			</section> 
+		</div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
